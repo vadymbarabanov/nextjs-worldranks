@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import styles from "./Layout.module.css";
 
 const Layout = ({ children, title = "World Ranks" }) => {
@@ -12,7 +13,9 @@ const Layout = ({ children, title = "World Ranks" }) => {
       </Head>
 
       <header className={styles.header}>
-        <h1>World Ranks</h1>
+        <Link href="/">
+          <h1 className={styles.header_label}>World Ranks</h1>
+        </Link>
       </header>
 
       <main className={styles.main}>{children}</main>
