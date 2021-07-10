@@ -1,4 +1,4 @@
-# nextjs-worldranks
+# World Ranks! 🗺️
 
 Next.js project with features:
 
@@ -7,4 +7,4 @@ Next.js project with features:
 - Responsive layout with plain CSS
 - Dark Theme
 
-Click [here] (https://nextjs-worldranks.vercel.app/) to check it out!
+Click 👉 [here](https://nextjs-worldranks.vercel.app/) 👈 to check it out!
