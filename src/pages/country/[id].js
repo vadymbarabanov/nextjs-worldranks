@@ -40,7 +40,7 @@ const Country = ({ country }) => {
                 <div className={styles.overview_label}>Population</div>
               </div>
               <div className={styles.overview_area}>
-                <div className={styles.overview_value}>{country.area}</div>
+                <div className={styles.overview_value}>{country.area || 0}</div>
                 <div className={styles.overview_label}>Area</div>
               </div>
             </div>
@@ -81,7 +81,7 @@ const Country = ({ country }) => {
 
             <div className={styles.details_row}>
               <div className={styles.details_label}>Gini</div>
-              <div className={styles.details_value}>{country.gini} %</div>
+              <div className={styles.details_value}>{country.gini || 0} %</div>
             </div>
 
             <div className={styles.details_borders}>
